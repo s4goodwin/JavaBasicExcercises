@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class basicMath {
 
     public static void main(String[] args) {
+        //https://www.w3resource.com/java-exercises/basic/index.php
+
         //2
         System.out.println(24+26);
         //3
@@ -63,6 +65,41 @@ public class basicMath {
 
         //11
         System.out.println();
-        
+        System.out.println("11.area and perimeter of circle");
+        double radius11 = 7.5;
+        double perimeter11 = 2*Math.PI*radius11;
+        double area11 = Math.PI*radius11*radius11;
+        System.out.println("Perimeter: "+perimeter11);
+        System.out.println("Area: "+area11);
+
+        //12
+        System.out.println();
+        System.out.println("12.print average of 5 inputs");
+        //scanner and user input
+        Scanner input12 = new Scanner(System.in);
+        System.out.println("Input first number");
+        int firstNumber12 = input12.nextInt();
+        System.out.println("Input second number");
+        int secondNumber12 = input12.nextInt();
+        System.out.println("Input third number");
+        int thirdNumber12 = input12.nextInt();
+        System.out.println("Input fourth number");
+        int fourthNumber12 = input12.nextInt();
+        System.out.println("Input fifth number");
+        int fifthNumber12 = input12.nextInt();
+        //print out average
+        System.out.println("The average is: " +
+                (fifthNumber12 + secondNumber12 + thirdNumber12 + fourthNumber12 + fifthNumber12)/5);
+
+        //13
+        System.out.println();
+        System.out.println("13.area and perimeter of rectangle");
+        double width13 = 5.5;
+        double height13 = 8.5;
+        double perimeter13 = 2*(width13+height13);
+        double area13 = width13*height13;
+        System.out.println("Perimeter is: "+ perimeter13);
+        System.out.println("Area is: "+ area13);
+
     }
 }

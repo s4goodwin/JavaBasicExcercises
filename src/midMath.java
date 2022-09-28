@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class part2 {
+public class midMath {
 
     public static void main(String[] args) {
         //15
@@ -54,10 +54,8 @@ public class part2 {
             System.out.println(firstNum32 +" >= "+ secondNum32);
         System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 
-        //33
-        System.out.println();
-        System.out.println("33.compute sum of digits");
-        System.out.println();
+
+
 
     }
 }

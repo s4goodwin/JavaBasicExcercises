@@ -54,6 +54,8 @@ public class advMath {
 
         System.out.println("The distance between the two points is: "
                 + distBetween36(latOne36, longOne36, latTwo36, longTwo36));
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+
 
     }
 

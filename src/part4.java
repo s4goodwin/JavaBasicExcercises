@@ -1,7 +1,7 @@
 import java.nio.charset.Charset;
 import java.util.Scanner;
 
-public class varManip {
+public class part4 {
     //37-40
 
     public static void main(String[] args) {

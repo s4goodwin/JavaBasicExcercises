@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class advMath {
+public class part3 {
     //33-36
 
     public static void main(String[] args) {

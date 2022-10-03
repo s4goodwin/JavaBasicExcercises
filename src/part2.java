@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class midMath {
+public class part2 {
     //15,31,32
 
     public static void main(String[] args) {
